@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.vermelho {
+  display: inline-block;
+
+  border: 1px solid black;
+
+  width: 200px;
+
+  height: 200px;
+  background-color: red;
+  border-color: white;
+}
+
+.azul {
+  display: inline-block;
+
+  border: 1px solid black;
+
+  width: 200px;
+
+  height: 200px;
+  background-color: aqua;
+  border-color: white;
+  justify-content: space-around;
+}
+
+.verde {
+  display: inline-block;
+
+  border: 1px solid black;
+
+  width: 200px;
+
+  height: 200px;
+  background-color: green;
+  border-color: white;
+  justify-content: space-between;
+}
+
+.amarelo {
+  display: inline-block;
+
+  border: 1px solid black;
+
+  width: 200px;
+
+  height: 200px;
+  background-color: yellow;
+  border-color: white;
+  justify-content: space-evenly;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#c1 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-left: 1px solid red;
+}
+
+#c2 {
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid white;
+}
+#c3 {
+  border-top: none;
+  border-bottom: 1px solid white;
+}
+#c4 {
+  border-top: none;
+  border-bottom: 1px solid white;
+}
+#c5 {
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+
+#c6 {
+  border-top: none;
+  border-right: 1px solid red;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#c7 {
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid red;
+}
+
+#c12 {
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid red;
+}
+
+#c13 {
+  border-left: none;
+}
+
+#c18 {
+  border-right: none;
+}
+
+#c19 {
+  border-left: none;
+  border-bottom: 0.5px solid red;
+}
+
+#c24 {
+  border-right: none;
+  border-bottom: 0.5px solid red;
+}
+
+#c25 {
+  border-left: none;
+  border-bottom: none;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+#c26 {
+  border-left: none;
+  border-bottom: none;
+}
+
+#c28 {
+  border-bottom: none;
+}
+
+#c29 {
+  border-right: none;
+  border-bottom: none;
+}
+
+#c30 {
+  border-right: 2px solid red;
+  border-bottom: none;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
